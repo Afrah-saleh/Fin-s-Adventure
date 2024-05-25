@@ -11,7 +11,7 @@ import SwiftUI
 struct Fin_s_AdventureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
