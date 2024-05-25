@@ -15,7 +15,7 @@ extension GameScene {
         let imageName = determineItem(forItemType: itemType)
         let item = SKSpriteNode(imageNamed: imageName)
         item.position = CGPoint(x: 400, y: randomYPosition.nextInt())
-        item.setScale(0.03)
+        item.setScale(0.02)
         item.zPosition = 5
         setPhysicsBody(for: item, withType: itemType)
         addChild(item)

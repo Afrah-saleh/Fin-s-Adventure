@@ -14,8 +14,8 @@ extension GameScene {
     func setupPlayer() {
         playerNode.position = CGPoint(x: size.width / 2, y: playerNode.size.height / 2)
           
-        playerNode.setScale(0.01)
-        playerNode.xScale = 0.02
+        playerNode.setScale(0.03)
+        playerNode.xScale = 0.05
           
         playerNode.physicsBody = SKPhysicsBody(rectangleOf: playerNode.size)
         playerNode.physicsBody?.categoryBitMask = 1

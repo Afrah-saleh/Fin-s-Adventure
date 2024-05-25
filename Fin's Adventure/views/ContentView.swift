@@ -91,36 +91,37 @@ struct ContentView: View {
         }
 
 
-        struct IntroView: View {
-            
-            @Binding var start: Bool
-            
-            var body: some View {
-                ZStack {
-                    Image("background")
+struct IntroView: View {
+    @Binding var start: Bool
+
+    var body: some View {
+        GeometryReader { geometry in
+            ZStack {
+                // Background image filling the entire screen
+                Image("background")
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all) // Ensures the background extends into the safe area
+
+                // Vertical stack for logo and button
+                VStack(spacing: 20) { // Adjusted spacing to a fixed value for consistency
+                    Image("logo")
                         .resizable()
-                        .scaledToFill()
-                        .ignoresSafeArea()
-                    
-                    VStack(spacing: -80){
-                        Image("logo")
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: geometry.size.width * 0.6) // Adjusted to only specify width for better scaling
+
+                    Button(action: {
+                        start = true
+                        SoundManager.shared.playSoundEffect(soundName: "ButtonSound", withExtension: "mp3")
+                    }) {
+                        Image("startBut")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 600, height: 400)
-                        
-                        
-                        Button {
-                            start = true
-                            SoundManager.shared.playSoundEffect(soundName: "ButtonSound", withExtension: "mp3")
-                        } label: {
-                            Image("startBut")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 300, height: 300)
-                        }
+                            .frame(width: geometry.size.width * 0.3) // Removed height to maintain aspect ratio
                     }
-                  
                 }
-
+                .padding(.top, geometry.safeAreaInsets.top + 50) // Adjust padding to consider safe area
             }
         }
+    }
+}

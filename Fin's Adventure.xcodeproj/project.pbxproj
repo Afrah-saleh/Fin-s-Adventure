@@ -10,14 +10,6 @@
 		943EBEA72C02094B0076D253 /* Fin_s_AdventureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBEA62C02094B0076D253 /* Fin_s_AdventureApp.swift */; };
 		943EBEAB2C02094C0076D253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEAA2C02094C0076D253 /* Assets.xcassets */; };
 		943EBEAE2C02094C0076D253 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEAD2C02094C0076D253 /* Preview Assets.xcassets */; };
-		943EBEBD2C0209800076D253 /* ButtonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEB52C0209800076D253 /* ButtonSound.mp3 */; };
-		943EBEBE2C0209800076D253 /* bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEB62C0209800076D253 /* bad.mp3 */; };
-		943EBEBF2C0209800076D253 /* BG1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEB72C0209800076D253 /* BG1.mp3 */; };
-		943EBEC02C0209800076D253 /* winMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEB82C0209800076D253 /* winMusic.mp3 */; };
-		943EBEC12C0209800076D253 /* loseMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEB92C0209800076D253 /* loseMusic.mp3 */; };
-		943EBEC22C0209800076D253 /* good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEBA2C0209800076D253 /* good.mp3 */; };
-		943EBEC32C0209800076D253 /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEBB2C0209800076D253 /* jump.mp3 */; };
-		943EBEC42C0209800076D253 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEBC2C0209800076D253 /* BGM.mp3 */; };
 		943EBECC2C0209980076D253 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBEC62C0209980076D253 /* GameOver.swift */; };
 		943EBECD2C0209980076D253 /* EnemyHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBEC72C0209980076D253 /* EnemyHandling.swift */; };
 		943EBECE2C0209980076D253 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBEC82C0209980076D253 /* SoundManager.swift */; };
@@ -29,6 +21,14 @@
 		943EBED92C0209AD0076D253 /* BackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBED62C0209AD0076D253 /* BackgroundViewModel.swift */; };
 		943EBEDC2C0209B40076D253 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBEDA2C0209B40076D253 /* OnboardingView.swift */; };
 		943EBEDD2C0209B40076D253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EBEDB2C0209B40076D253 /* ContentView.swift */; };
+		943EBEDF2C024A4F0076D253 /* winMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEDE2C024A4F0076D253 /* winMusic.mp3 */; };
+		943EBEE12C024A660076D253 /* loseMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEE02C024A660076D253 /* loseMusic.mp3 */; };
+		943EBEE92C024C8D0076D253 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEE82C024C8D0076D253 /* BGM.mp3 */; };
+		943EBEEB2C024CC00076D253 /* BG1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEEA2C024CC00076D253 /* BG1.mp3 */; };
+		943EBEED2C02556F0076D253 /* ButtonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEEC2C02556F0076D253 /* ButtonSound.mp3 */; };
+		943EBEF02C0255C20076D253 /* bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEEF2C0255C10076D253 /* bad.mp3 */; };
+		943EBEF22C0255CE0076D253 /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEF12C0255CE0076D253 /* jump.mp3 */; };
+		943EBEF42C0255DA0076D253 /* good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 943EBEF32C0255DA0076D253 /* good.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,14 +36,6 @@
 		943EBEA62C02094B0076D253 /* Fin_s_AdventureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fin_s_AdventureApp.swift; sourceTree = "<group>"; };
 		943EBEAA2C02094C0076D253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943EBEAD2C02094C0076D253 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		943EBEB52C0209800076D253 /* ButtonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonSound.mp3; sourceTree = "<group>"; };
-		943EBEB62C0209800076D253 /* bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad.mp3; sourceTree = "<group>"; };
-		943EBEB72C0209800076D253 /* BG1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BG1.mp3; sourceTree = "<group>"; };
-		943EBEB82C0209800076D253 /* winMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winMusic.mp3; sourceTree = "<group>"; };
-		943EBEB92C0209800076D253 /* loseMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loseMusic.mp3; sourceTree = "<group>"; };
-		943EBEBA2C0209800076D253 /* good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = good.mp3; sourceTree = "<group>"; };
-		943EBEBB2C0209800076D253 /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
-		943EBEBC2C0209800076D253 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 		943EBEC62C0209980076D253 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		943EBEC72C0209980076D253 /* EnemyHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyHandling.swift; sourceTree = "<group>"; };
 		943EBEC82C0209980076D253 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
@@ -55,6 +47,14 @@
 		943EBED62C0209AD0076D253 /* BackgroundViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundViewModel.swift; sourceTree = "<group>"; };
 		943EBEDA2C0209B40076D253 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		943EBEDB2C0209B40076D253 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		943EBEDE2C024A4F0076D253 /* winMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winMusic.mp3; sourceTree = "<group>"; };
+		943EBEE02C024A660076D253 /* loseMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loseMusic.mp3; sourceTree = "<group>"; };
+		943EBEE82C024C8D0076D253 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		943EBEEA2C024CC00076D253 /* BG1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BG1.mp3; sourceTree = "<group>"; };
+		943EBEEC2C02556F0076D253 /* ButtonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonSound.mp3; sourceTree = "<group>"; };
+		943EBEEF2C0255C10076D253 /* bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad.mp3; sourceTree = "<group>"; };
+		943EBEF12C0255CE0076D253 /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
+		943EBEF32C0255DA0076D253 /* good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = good.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,14 +108,14 @@
 		943EBEB42C0209760076D253 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				943EBEB62C0209800076D253 /* bad.mp3 */,
-				943EBEB72C0209800076D253 /* BG1.mp3 */,
-				943EBEBC2C0209800076D253 /* BGM.mp3 */,
-				943EBEB52C0209800076D253 /* ButtonSound.mp3 */,
-				943EBEBA2C0209800076D253 /* good.mp3 */,
-				943EBEBB2C0209800076D253 /* jump.mp3 */,
-				943EBEB92C0209800076D253 /* loseMusic.mp3 */,
-				943EBEB82C0209800076D253 /* winMusic.mp3 */,
+				943EBEEA2C024CC00076D253 /* BG1.mp3 */,
+				943EBEE82C024C8D0076D253 /* BGM.mp3 */,
+				943EBEF32C0255DA0076D253 /* good.mp3 */,
+				943EBEF12C0255CE0076D253 /* jump.mp3 */,
+				943EBEEF2C0255C10076D253 /* bad.mp3 */,
+				943EBEEC2C02556F0076D253 /* ButtonSound.mp3 */,
+				943EBEDE2C024A4F0076D253 /* winMusic.mp3 */,
+				943EBEE02C024A660076D253 /* loseMusic.mp3 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -211,16 +211,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943EBEBE2C0209800076D253 /* bad.mp3 in Resources */,
-				943EBEBF2C0209800076D253 /* BG1.mp3 in Resources */,
-				943EBEC32C0209800076D253 /* jump.mp3 in Resources */,
-				943EBEC42C0209800076D253 /* BGM.mp3 in Resources */,
+				943EBEEB2C024CC00076D253 /* BG1.mp3 in Resources */,
+				943EBEF42C0255DA0076D253 /* good.mp3 in Resources */,
+				943EBEF02C0255C20076D253 /* bad.mp3 in Resources */,
+				943EBEE12C024A660076D253 /* loseMusic.mp3 in Resources */,
 				943EBEAE2C02094C0076D253 /* Preview Assets.xcassets in Resources */,
-				943EBEBD2C0209800076D253 /* ButtonSound.mp3 in Resources */,
 				943EBEAB2C02094C0076D253 /* Assets.xcassets in Resources */,
-				943EBEC12C0209800076D253 /* loseMusic.mp3 in Resources */,
-				943EBEC02C0209800076D253 /* winMusic.mp3 in Resources */,
-				943EBEC22C0209800076D253 /* good.mp3 in Resources */,
+				943EBEDF2C024A4F0076D253 /* winMusic.mp3 in Resources */,
+				943EBEF22C0255CE0076D253 /* jump.mp3 in Resources */,
+				943EBEE92C024C8D0076D253 /* BGM.mp3 in Resources */,
+				943EBEED2C02556F0076D253 /* ButtonSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +382,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,8 +414,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

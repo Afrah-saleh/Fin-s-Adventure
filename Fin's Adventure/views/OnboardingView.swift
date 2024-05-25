@@ -15,7 +15,7 @@ struct OnboardingView: View {
         OnboardingContentView(backgroundImage: "back5", text: "onBoard1"),
         OnboardingContentView(backgroundImage: "back2", text: "onBoard2"),
         OnboardingContentView(backgroundImage: "back3", text: "onBoard3"),
-        OnboardingContentView(backgroundImage: "back4", text: "onBoard4"),
+       // OnboardingContentView(backgroundImage: "back4", text: "onBoard4"),
         OnboardingContentView(backgroundImage: "back5", text: "HowToPlay")
     ]
     
